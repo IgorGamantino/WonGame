@@ -1436,6 +1436,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.10.5", "@babel/runtime@^7.14.0", "@babel/runtime@^7.14.6", "@babel/runtime@^7.15.3", "@babel/runtime@^7.15.4":
+  version "7.17.2"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@babel/runtime/-/runtime-7.17.2.tgz#66f68591605e59da47523c631416b18508779941"
+  integrity sha1-ZvaFkWBeWdpHUjxjFBaxhQh3mUE=
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/template@^7.12.13", "@babel/template@^7.12.7", "@babel/template@^7.3.3":
   version "7.12.13"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.12.13.tgz#530265be8a2589dbb37523844c5bcb55947fb327"
@@ -1629,7 +1636,7 @@
   resolved "https://registry.yarnpkg.com/@emotion/hash/-/hash-0.8.0.tgz#bbbff68978fefdbe68ccb533bc8cbe1d1afb5413"
   integrity sha512-kBJtf7PH6aWwZ6fka3zQ0p6SBYzx4fl1LoZXE2RrnYST9Xljm7WfKJrU4g/Xr3Beg72MLrp1AWNUmuYJTL7Cow==
 
-"@emotion/is-prop-valid@0.8.8", "@emotion/is-prop-valid@^0.8.6", "@emotion/is-prop-valid@^0.8.8":
+"@emotion/is-prop-valid@0.8.8", "@emotion/is-prop-valid@^0.8.6", "@emotion/is-prop-valid@^0.8.7", "@emotion/is-prop-valid@^0.8.8":
   version "0.8.8"
   resolved "https://registry.yarnpkg.com/@emotion/is-prop-valid/-/is-prop-valid-0.8.8.tgz#db28b1c4368a259b60a97311d6a952d4fd01ac1a"
   integrity sha512-u5WtneEAr5IDG2Wv65yhunPSMLIpuKsbuOktRojfrEiEvRyC85LgPMZI63cr7NUqT8ZIGdSVg8ZKGxIug4lXcA==
@@ -3067,6 +3074,302 @@
     regenerator-runtime "^0.13.7"
     resolve-from "^5.0.0"
     store2 "^2.12.0"
+
+"@styled-icons/bootstrap@10.34.0":
+  version "10.34.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/bootstrap/-/bootstrap-10.34.0.tgz#d9142e9eb70dc437f7ef62ffc40168e1ae13ab12"
+  integrity sha1-2RQunrcNxDf372L/xAFo4a4TqxI=
+  dependencies:
+    "@babel/runtime" "^7.14.0"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/boxicons-logos@10.38.0":
+  version "10.38.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/boxicons-logos/-/boxicons-logos-10.38.0.tgz#f51442c49f1a28c61927d6d2f8c1e2d7946faf46"
+  integrity sha1-9RRCxJ8aKMYZJ9bS+MHi15Rvr0Y=
+  dependencies:
+    "@babel/runtime" "^7.15.3"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/boxicons-regular@10.38.0":
+  version "10.38.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/boxicons-regular/-/boxicons-regular-10.38.0.tgz#1eb80b4f94a18a9b77b11dee5204aa23378d37ec"
+  integrity sha1-HrgLT5Shipt3sR3uUgSqIzeNN+w=
+  dependencies:
+    "@babel/runtime" "^7.15.3"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/boxicons-solid@10.38.0":
+  version "10.38.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/boxicons-solid/-/boxicons-solid-10.38.0.tgz#bb2a6e21f3412c97ae8029396e3ca9fb107c7658"
+  integrity sha1-uypuIfNBLJeugCk5bjyp+xB8dlg=
+  dependencies:
+    "@babel/runtime" "^7.15.3"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/crypto@10.38.0":
+  version "10.38.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/crypto/-/crypto-10.38.0.tgz#05920043cddd5042b04c91862c64e644f9bbf065"
+  integrity sha1-BZIAQ83dUEKwTJGGLGTmRPm78GU=
+  dependencies:
+    "@babel/runtime" "^7.15.3"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/entypo-social@10.34.0":
+  version "10.34.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/entypo-social/-/entypo-social-10.34.0.tgz#f2a719cd5811adb4b72b09b7614009a9c5d187e4"
+  integrity sha1-8qcZzVgRrbS3Kwm3YUAJqcXRh+Q=
+  dependencies:
+    "@babel/runtime" "^7.14.0"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/entypo@10.34.0":
+  version "10.34.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/entypo/-/entypo-10.34.0.tgz#469037689c6d55a1e58b0e3466ef64929a7155e3"
+  integrity sha1-RpA3aJxtVaHliw40Zu9kkppxVeM=
+  dependencies:
+    "@babel/runtime" "^7.14.0"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/evaicons-outline@10.34.0":
+  version "10.34.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/evaicons-outline/-/evaicons-outline-10.34.0.tgz#a75c01763539a182834aefd6b60e9db0a45eef7b"
+  integrity sha1-p1wBdjU5oYKDSu/Wtg6dsKRe73s=
+  dependencies:
+    "@babel/runtime" "^7.14.0"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/evaicons-solid@10.34.0":
+  version "10.34.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/evaicons-solid/-/evaicons-solid-10.34.0.tgz#54cff976f32aad41949da7419f6d9947d7bde431"
+  integrity sha1-VM/5dvMqrUGUnadBn22ZR9e95DE=
+  dependencies:
+    "@babel/runtime" "^7.14.0"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/evil@10.34.0":
+  version "10.34.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/evil/-/evil-10.34.0.tgz#3b682dcec4dfdb1b58f4fd2458895adc03585f5b"
+  integrity sha1-O2gtzsTf2xtY9P0kWIla3ANYX1s=
+  dependencies:
+    "@babel/runtime" "^7.14.0"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/fa-brands@10.38.0":
+  version "10.38.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/fa-brands/-/fa-brands-10.38.0.tgz#f4b6572c751409a62a3b5027e8d961e7dab7d33a"
+  integrity sha1-9LZXLHUUCaYqO1An6Nlh59q30zo=
+  dependencies:
+    "@babel/runtime" "^7.15.3"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/fa-regular@10.34.0":
+  version "10.34.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/fa-regular/-/fa-regular-10.34.0.tgz#b6761412c0b2985eae60d20bff77e76cecd2deb8"
+  integrity sha1-tnYUEsCymF6uYNIL/3fnbOzS3rg=
+  dependencies:
+    "@babel/runtime" "^7.14.0"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/fa-solid@10.34.0":
+  version "10.34.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/fa-solid/-/fa-solid-10.34.0.tgz#315a6f6f25d38202d3387928191731e4c7a3bb18"
+  integrity sha1-MVpvbyXTggLTOHkoGRcx5Mejuxg=
+  dependencies:
+    "@babel/runtime" "^7.14.0"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/feather@10.34.0":
+  version "10.34.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/feather/-/feather-10.34.0.tgz#fdef1b4231e1ff6cfe454da741161f532788177b"
+  integrity sha1-/e8bQjHh/2z+RU2nQRYfUyeIF3s=
+  dependencies:
+    "@babel/runtime" "^7.14.0"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/fluentui-system-filled@10.35.0":
+  version "10.35.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/fluentui-system-filled/-/fluentui-system-filled-10.35.0.tgz#6d89c09af2c98153c826ca6d04a91e6c50f6a7fa"
+  integrity sha1-bYnAmvLJgVPIJsptBKkebFD2p/o=
+  dependencies:
+    "@babel/runtime" "^7.14.6"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/fluentui-system-regular@10.35.0":
+  version "10.35.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/fluentui-system-regular/-/fluentui-system-regular-10.35.0.tgz#41d9400ecb7d1c0b438186aa9864cd2320c53c1b"
+  integrity sha1-QdlADst9HAtDgYaqmGTNIyDFPBs=
+  dependencies:
+    "@babel/runtime" "^7.14.6"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/foundation@10.34.0":
+  version "10.34.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/foundation/-/foundation-10.34.0.tgz#7d2ffb882701ca415ea0296ef5464bbd5884a5fe"
+  integrity sha1-fS/7iCcBykFeoClu9UZLvViEpf4=
+  dependencies:
+    "@babel/runtime" "^7.14.0"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/heroicons-outline@10.36.0":
+  version "10.36.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/heroicons-outline/-/heroicons-outline-10.36.0.tgz#e98d6dbfb05dcd9a8e56a764dd5e2124651ddcc9"
+  integrity sha1-6Y1tv7BdzZqOVqdk3V4hJGUd3Mk=
+  dependencies:
+    "@babel/runtime" "^7.14.6"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/heroicons-solid@10.36.0":
+  version "10.36.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/heroicons-solid/-/heroicons-solid-10.36.0.tgz#38c3399d000c8f39eba5da66f3ad47d24f5acc60"
+  integrity sha1-OMM5nQAMjznrpdpm861H0k9azGA=
+  dependencies:
+    "@babel/runtime" "^7.14.6"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/icomoon@10.34.0":
+  version "10.34.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/icomoon/-/icomoon-10.34.0.tgz#f8e9ed47e408dc8ad0e363f53007dff23b787027"
+  integrity sha1-+OntR+QI3IrQ42P1MAff8jt4cCc=
+  dependencies:
+    "@babel/runtime" "^7.14.0"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/ionicons-outline@10.34.0":
+  version "10.34.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/ionicons-outline/-/ionicons-outline-10.34.0.tgz#9c39d21433908c0517371a1142634b1e9650eb5d"
+  integrity sha1-nDnSFDOQjAUXNxoRQmNLHpZQ610=
+  dependencies:
+    "@babel/runtime" "^7.14.0"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/ionicons-sharp@10.34.0":
+  version "10.34.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/ionicons-sharp/-/ionicons-sharp-10.34.0.tgz#bf12f834d50b97d41f424687e9cf8cd403df8e05"
+  integrity sha1-vxL4NNULl9QfQkaH6c+M1APfjgU=
+  dependencies:
+    "@babel/runtime" "^7.14.0"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/ionicons-solid@10.34.0":
+  version "10.34.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/ionicons-solid/-/ionicons-solid-10.34.0.tgz#348f135f010f8cc6d49649116e2cbf7ee992ed35"
+  integrity sha1-NI8TXwEPjMbUlkkRbiy/fumS7TU=
+  dependencies:
+    "@babel/runtime" "^7.14.0"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/material-outlined@10.34.0":
+  version "10.34.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/material-outlined/-/material-outlined-10.34.0.tgz#5da422bc14dbc0ad0b4e7e15153056866f42f37b"
+  integrity sha1-XaQivBTbwK0LTn4VFTBWhm9C83s=
+  dependencies:
+    "@babel/runtime" "^7.14.0"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/material-rounded@10.34.0":
+  version "10.34.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/material-rounded/-/material-rounded-10.34.0.tgz#8a8a1c35215a9c035da51ae5e4797821e5d07a23"
+  integrity sha1-ioocNSFanANdpRrl5Hl4IeXQeiM=
+  dependencies:
+    "@babel/runtime" "^7.14.0"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/material-sharp@10.34.0":
+  version "10.34.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/material-sharp/-/material-sharp-10.34.0.tgz#b1d95bab46e8f4a3fb35446b9d7e1f7bcc942cde"
+  integrity sha1-sdlbq0bo9KP7NURrnX4fe8yULN4=
+  dependencies:
+    "@babel/runtime" "^7.14.0"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/material-twotone@10.34.0":
+  version "10.34.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/material-twotone/-/material-twotone-10.34.0.tgz#91983def41f87e17d18d6d3d1fbbc4e6abb56106"
+  integrity sha1-kZg970H4fhfRjW09H7vE5qu1YQY=
+  dependencies:
+    "@babel/runtime" "^7.14.0"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/material@10.34.0":
+  version "10.34.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/material/-/material-10.34.0.tgz#479bd36834d26e2b8e2ed06813a141a578ea6008"
+  integrity sha1-R5vTaDTSbiuOLtBoE6FBpXjqYAg=
+  dependencies:
+    "@babel/runtime" "^7.14.0"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/octicons@10.44.0":
+  version "10.44.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/octicons/-/octicons-10.44.0.tgz#d7b6366c74f1fa129914956f6fb83a084c0dee27"
+  integrity sha1-17Y2bHTx+hKZFJVvb7g6CEwN7ic=
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/open-iconic@10.18.0":
+  version "10.18.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/open-iconic/-/open-iconic-10.18.0.tgz#658bd6aee9232d0983c7aa8949713221c7d5bb87"
+  integrity sha1-ZYvWrukjLQmDx6qJSXEyIcfVu4c=
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/remix-editor@10.33.0":
+  version "10.33.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/remix-editor/-/remix-editor-10.33.0.tgz#ee348658f2d44cef409004a077f2280620b9307d"
+  integrity sha1-7jSGWPLUTO9AkASgd/IoBiC5MH0=
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/remix-fill@10.18.0":
+  version "10.18.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/remix-fill/-/remix-fill-10.18.0.tgz#7a7b007b6d3e97ff3b63fc07f7af1d365245b25a"
+  integrity sha1-ensAe20+l/87Y/wH968dNlJFslo=
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/remix-line@10.18.0":
+  version "10.18.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/remix-line/-/remix-line-10.18.0.tgz#f6bd167883fb46a0103d60a8f4106823740e4b3e"
+  integrity sha1-9r0WeIP7RqAQPWCo9BBoI3QOSz4=
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/simple-icons@10.45.0":
+  version "10.45.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/simple-icons/-/simple-icons-10.45.0.tgz#fc102e514e0b417cc8cd3b773cc33005a07852dc"
+  integrity sha1-/BAuUU4LQXzIzTt3PMMwBaB4Utw=
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    "@styled-icons/styled-icon" "^10.6.3"
+
+"@styled-icons/styled-icon@10.6.3", "@styled-icons/styled-icon@^10.6.0", "@styled-icons/styled-icon@^10.6.3":
+  version "10.6.3"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/styled-icon/-/styled-icon-10.6.3.tgz#eae0e5e18fd601ac47e821bb9c2e099810e86403"
+  integrity sha1-6uDl4Y/WAaxH6CG7nC4JmBDoZAM=
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@emotion/is-prop-valid" "^0.8.7"
+
+"@styled-icons/typicons@10.18.0":
+  version "10.18.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/typicons/-/typicons-10.18.0.tgz#87924805c219d4eda6193e87643a71b3ff10ac12"
+  integrity sha1-h5JIBcIZ1O2mGT6HZDpxs/8QrBI=
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
+
+"@styled-icons/zondicons@10.18.0":
+  version "10.18.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/@styled-icons/zondicons/-/zondicons-10.18.0.tgz#56fd377ffb8412495694e4b19cb72b5bbd38f744"
+  integrity sha1-Vv03f/uEEklWlOSxnLcrW70490Q=
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    "@styled-icons/styled-icon" "^10.6.0"
 
 "@surma/rollup-plugin-off-main-thread@^1.4.1":
   version "1.4.2"
@@ -12983,6 +13286,50 @@ styled-components@5.3.1:
     hoist-non-react-statics "^3.0.0"
     shallowequal "^1.1.0"
     supports-color "^5.5.0"
+
+styled-icons@^10.45.0:
+  version "10.45.0"
+  resolved "https://artifactory.softplan.com.br:443/artifactory/api/npm/npm/styled-icons/-/styled-icons-10.45.0.tgz#a516f4a1d902a44828b0b0217c626c66cc95f78b"
+  integrity sha1-pRb0odkCpEgosLAhfGJsZsyV94s=
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    "@styled-icons/bootstrap" "10.34.0"
+    "@styled-icons/boxicons-logos" "10.38.0"
+    "@styled-icons/boxicons-regular" "10.38.0"
+    "@styled-icons/boxicons-solid" "10.38.0"
+    "@styled-icons/crypto" "10.38.0"
+    "@styled-icons/entypo" "10.34.0"
+    "@styled-icons/entypo-social" "10.34.0"
+    "@styled-icons/evaicons-outline" "10.34.0"
+    "@styled-icons/evaicons-solid" "10.34.0"
+    "@styled-icons/evil" "10.34.0"
+    "@styled-icons/fa-brands" "10.38.0"
+    "@styled-icons/fa-regular" "10.34.0"
+    "@styled-icons/fa-solid" "10.34.0"
+    "@styled-icons/feather" "10.34.0"
+    "@styled-icons/fluentui-system-filled" "10.35.0"
+    "@styled-icons/fluentui-system-regular" "10.35.0"
+    "@styled-icons/foundation" "10.34.0"
+    "@styled-icons/heroicons-outline" "10.36.0"
+    "@styled-icons/heroicons-solid" "10.36.0"
+    "@styled-icons/icomoon" "10.34.0"
+    "@styled-icons/ionicons-outline" "10.34.0"
+    "@styled-icons/ionicons-sharp" "10.34.0"
+    "@styled-icons/ionicons-solid" "10.34.0"
+    "@styled-icons/material" "10.34.0"
+    "@styled-icons/material-outlined" "10.34.0"
+    "@styled-icons/material-rounded" "10.34.0"
+    "@styled-icons/material-sharp" "10.34.0"
+    "@styled-icons/material-twotone" "10.34.0"
+    "@styled-icons/octicons" "10.44.0"
+    "@styled-icons/open-iconic" "10.18.0"
+    "@styled-icons/remix-editor" "10.33.0"
+    "@styled-icons/remix-fill" "10.18.0"
+    "@styled-icons/remix-line" "10.18.0"
+    "@styled-icons/simple-icons" "10.45.0"
+    "@styled-icons/styled-icon" "10.6.3"
+    "@styled-icons/typicons" "10.18.0"
+    "@styled-icons/zondicons" "10.18.0"
 
 styled-jsx@4.0.1:
   version "4.0.1"
