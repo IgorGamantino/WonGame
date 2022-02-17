@@ -1,6 +1,6 @@
 import { screen } from '@testing-library/react'
 import { renderWithTheme } from 'utils/tests/helpers'
-
+import 'jest-styled-components'
 import { Heading } from '.'
 
 describe('<Heading />', () => {
@@ -34,5 +34,12 @@ describe('<Heading />', () => {
     expect(screen.getByText('Most Populars')).toHaveStyle({
       marginBottom: '3.2rem'
     })
+    expect(screen.getByText('Most Populars')).toHaveStyleRule(
+      'border-bottom',
+      '0.7rem solid #F231A5',
+      {
+        modifier: '::after'
+      }
+    )
   })
 })
