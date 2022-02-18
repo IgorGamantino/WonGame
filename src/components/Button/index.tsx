@@ -1,7 +1,7 @@
 import { ReactNode, ButtonHTMLAttributes } from 'react'
 import { Wrapper } from './styles'
 
-interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   children?: ReactNode
   size?: 'small' | 'medium' | 'large'
   fullWidth?: boolean

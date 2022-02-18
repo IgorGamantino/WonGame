@@ -2,12 +2,13 @@ import { Wrapper } from './styles'
 
 export type LogoProps = {
   color?: 'white' | 'black'
+  hideOnMobile?: boolean
 }
 
-export const Logo = ({ color = 'black' }: LogoProps) => (
+export const Logo = ({ color = 'black', hideOnMobile }: LogoProps) => (
   <Wrapper color={color}>
     <svg
-      width="158"
+      width={hideOnMobile ? '60' : '158'}
       height="48"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
