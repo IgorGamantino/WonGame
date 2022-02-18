@@ -1,5 +1,6 @@
 import styled, { css } from 'styled-components'
 import media from 'styled-media-query'
+import theme from 'styles/theme'
 
 type MenuFullProps = {
   isOpen: boolean
@@ -36,18 +37,27 @@ export const IconContent = styled.div`
     display: flex;
     flex-grow: 1;
     justify-content: flex-end;
+    align-items: center;
 
     > div {
       margin-left: ${theme.spacings.xsmall};
     }
   `}
 `
-export const MenuNav = styled.div``
+export const MenuNav = styled.div`
+  ${({ theme }) => css`
+    margin-left: ${theme.spacings.medium};
+  `}
+
+  ${media.greaterThan('medium')`
+  margin-left: ${theme.spacings.small};`}
+`
 
 export const MenuLink = styled.a`
   ${({ theme }) => css`
     position: relative;
     font-size: ${theme.font.sizes.medium};
+    color: ${theme.colors.white};
     margin: 0.3rem ${theme.spacings.small} 0;
     text-decoration: none;
     text-align: center;

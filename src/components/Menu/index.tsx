@@ -19,6 +19,7 @@ import {
 } from './styles'
 import { useState } from 'react'
 import { Button } from 'components/Button'
+import { MediaMatch } from 'components/MediaMatch'
 
 type MenuProps = {
   username?: string
@@ -29,13 +30,22 @@ export const Menu = ({ username }: MenuProps) => {
 
   return (
     <Wrapper>
-      <IconWrapper onClick={() => setIsOpen(true)}>
-        <MenuIcon aria-label="Open Menu" />
-      </IconWrapper>
+      <MediaMatch lessThan="medium">
+        <IconWrapper onClick={() => setIsOpen(true)}>
+          <MenuIcon aria-label="Open Menu" />
+        </IconWrapper>
+      </MediaMatch>
 
       <LogoWrapper>
         <Logo hideOnMobile />
       </LogoWrapper>
+
+      <MediaMatch greaterThan="medium">
+        <MenuNav>
+          <MenuLink href="a">Home</MenuLink>
+          <MenuLink href="a">Explore</MenuLink>
+        </MenuNav>
+      </MediaMatch>
 
       <IconContent>
         <IconWrapper>
@@ -45,6 +55,11 @@ export const Menu = ({ username }: MenuProps) => {
         <IconWrapper>
           <ShoppingCartIcon aria-label="shopping cart" />
         </IconWrapper>
+        {!username && (
+          <MediaMatch greaterThan="medium">
+            <Button>Sign in</Button>
+          </MediaMatch>
+        )}
       </IconContent>
 
       <MenuFull isOpen={isOpen} aria-hidden={!isOpen}>

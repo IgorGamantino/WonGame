@@ -1,6 +1,5 @@
-import { getByText, render, screen } from '@testing-library/react'
+import { screen } from '@testing-library/react'
 import FireEvent from '@testing-library/user-event'
-import { debug } from 'console'
 
 import { renderWithTheme } from 'utils/tests/helpers'
 
