@@ -20,7 +20,11 @@ import {
 import { useState } from 'react'
 import { Button } from 'components/Button'
 
-export const Menu = () => {
+type MenuProps = {
+  username?: string
+}
+
+export const Menu = ({ username }: MenuProps) => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
@@ -49,18 +53,27 @@ export const Menu = () => {
         <MenuNav>
           <MenuLink href="a">Home</MenuLink>
           <MenuLink href="a">Explore</MenuLink>
+
+          {username && (
+            <>
+              <MenuLink href="a">My account</MenuLink>
+              <MenuLink href="a">Wishlist</MenuLink>
+            </>
+          )}
         </MenuNav>
 
-        <RegisterBox>
-          <Button fullWidth size="large">
-            Login in now
-          </Button>
+        {!username && (
+          <RegisterBox>
+            <Button fullWidth size="large">
+              Login in now
+            </Button>
 
-          <span>or</span>
-          <CreateAccount href="/" title="Sign Up">
-            Sign Up
-          </CreateAccount>
-        </RegisterBox>
+            <span>or</span>
+            <CreateAccount href="/" title="Sign Up">
+              Sign Up
+            </CreateAccount>
+          </RegisterBox>
+        )}
       </MenuFull>
     </Wrapper>
   )
